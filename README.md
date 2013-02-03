@@ -74,3 +74,11 @@ The OR operator works like this:
 
 This is the same as the AS operator.
 
+## Development
+
+### npm
+
+Run the coffeescript compiler
+
+	coffee -co lib . src
+
