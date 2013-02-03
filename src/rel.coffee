@@ -3,7 +3,7 @@ Range = require './lib/range'
 Table = require './lib/table'
 
 Rel =
-  VERSION: '0.0.1'
+  VERSION: '0.0.3'
 
   sql: (rawSql) ->
     new Nodes.SqlLiteral rawSql
